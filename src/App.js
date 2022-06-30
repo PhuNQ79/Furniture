@@ -1,11 +1,11 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
+import Slider from './components/Slider/Slider';
 function App() {
   return (
     <>
       <Header></Header>
-      <Banner></Banner>
+      <Slider></Slider>
     </>
   );
 }
