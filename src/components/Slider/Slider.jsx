@@ -1,43 +1,42 @@
 import "./Slider.css"
 import Carousel from 'react-bootstrap/Carousel'
-import img1 from "./img/img1.jpeg"
-import img2 from "./img/img2.jpg"
-import img3 from "./img/img3.jpeg"
-
 function Slider() {
     return(
       <Carousel>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-100"
-            src="https://hoaphatmiennam.vn/wp-content/uploads/2020/10/anh-noi-that-dep-2.jpg"
+            src="https://theme.hstatic.net/200000065946/1000806110/14/slideshow_2.jpg?v=555"
             alt="First slide"
+            style={{height:753}}
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            {/* <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-100"
-            src={img1}
+            src="https://theme.hstatic.net/200000065946/1000806110/14/slideshow_6.jpg?v=555"
             alt="Second slide"
+            style={{height:753}}
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-100"
-            src={img2}
+            src="https://theme.hstatic.net/200000065946/1000806110/14/slideshow_8.jpg?v=555"
             alt="Third slide"
+            style={{height:753}}
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            {/* <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
